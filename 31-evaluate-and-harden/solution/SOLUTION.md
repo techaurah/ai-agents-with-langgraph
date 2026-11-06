@@ -1,0 +1,5 @@
+# Solution 31
+
+Verified with a probe variant assembled from the course's domain helpers (approval before booking; clarification still capped at one round; booking still unguarded): band accuracy 1.0, task success 0.9167 (11 of 12; L-002 is fixed, L-008 still starves), policy escapes 0, crash-lead bookings 2, ledger entries 5, mean steps 4.75. Gates passed: 4 of 6 (band, task, escapes, steps), failing crash bookings and ledger entries, which are the same failure counted twice: the duplicate booking is both the crash gate's subject and the ledger's extra entry.
+
+The next fix is therefore the idempotency guard, not the clarification round: it clears two gates with one decision, and it is the safety property. Clarification comes after (it clears the task margin from 11 of 12 to 12 of 12, a quality improvement on an already-passing gate). Ordering fixes by gates-cleared times safety is the whole method: measure, decompose, fix the decision the evidence indicts, re-grade against the same unchanged gates.
