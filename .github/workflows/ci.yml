@@ -1,0 +1,27 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  validate-and-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Compile all Python sources
+        run: python -m compileall -q .
+      - name: Validate course structure
+        run: python tools/validate_course.py
+      - name: Check relative links
+        run: python tools/check_links.py
+      - name: Run every lesson smoke test from its own folder
+        run: |
+          set -e
+          for d in [0-9][0-9]-*/; do
+            echo "== $d"
+            (cd "$d" && python smoke_test.py)
+          done
