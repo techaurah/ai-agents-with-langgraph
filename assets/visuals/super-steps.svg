@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="380" viewBox="0 0 1000 380">
+<rect width="1000" height="380" fill="#FFFFFF"/>
+<defs><marker id="arr" markerWidth="8" markerHeight="8" refX="7" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6" fill="#0B1F4A"/></marker></defs>
+<text x="500" y="48" font-family="Georgia, 'Times New Roman', serif" font-size="26" fill="#0B1F4A" text-anchor="middle" font-weight="bold">One run, eight checkpoints (lead L-001)</text>
+<text x="500" y="76" font-family="Georgia, 'Times New Roman', serif" font-size="15" fill="#475569" text-anchor="middle" font-weight="normal">A snapshot is written at every super-step boundary, plus the pause and the finish.</text>
+<rect x="28" y="150" width="104" height="64" rx="10" fill="#E0F2FE" stroke="#0B1F4A" stroke-width="1.5"/>
+<text x="80" y="178" font-family="Georgia, 'Times New Roman', serif" font-size="14" fill="#0B1F4A" text-anchor="middle" font-weight="bold">initial</text>
+<text x="80" y="198" font-family="Georgia, 'Times New Roman', serif" font-size="12" fill="#0B1F4A" text-anchor="middle" font-weight="normal">snapshot</text>
+<line x1="134" y1="182" x2="146" y2="182" stroke="#0B1F4A" stroke-width="2" marker-end="url(#arr)"/>
+<rect x="148" y="150" width="104" height="64" rx="10" fill="#E0F2FE" stroke="#0B1F4A" stroke-width="1.5"/>
+<text x="200" y="178" font-family="Georgia, 'Times New Roman', serif" font-size="14" fill="#0B1F4A" text-anchor="middle" font-weight="bold">intake</text>
+<text x="200" y="198" font-family="Georgia, 'Times New Roman', serif" font-size="12" fill="#0B1F4A" text-anchor="middle" font-weight="normal">step 1</text>
+<line x1="254" y1="182" x2="266" y2="182" stroke="#0B1F4A" stroke-width="2" marker-end="url(#arr)"/>
+<rect x="268" y="150" width="104" height="64" rx="10" fill="#E0F2FE" stroke="#0B1F4A" stroke-width="1.5"/>
+<text x="320" y="178" font-family="Georgia, 'Times New Roman', serif" font-size="14" fill="#0B1F4A" text-anchor="middle" font-weight="bold">score</text>
+<text x="320" y="198" font-family="Georgia, 'Times New Roman', serif" font-size="12" fill="#0B1F4A" text-anchor="middle" font-weight="normal">step 2</text>
+<line x1="374" y1="182" x2="386" y2="182" stroke="#0B1F4A" stroke-width="2" marker-end="url(#arr)"/>
+<rect x="388" y="150" width="104" height="64" rx="10" fill="#F59E0B" stroke="#0B1F4A" stroke-width="1.5"/>
+<text x="440" y="178" font-family="Georgia, 'Times New Roman', serif" font-size="14" fill="#0B1F4A" text-anchor="middle" font-weight="bold">approve</text>
+<text x="440" y="198" font-family="Georgia, 'Times New Roman', serif" font-size="12" fill="#0B1F4A" text-anchor="middle" font-weight="normal">PAUSED</text>
+<line x1="494" y1="182" x2="506" y2="182" stroke="#0B1F4A" stroke-width="2" marker-end="url(#arr)"/>
+<rect x="508" y="150" width="104" height="64" rx="10" fill="#E0F2FE" stroke="#0B1F4A" stroke-width="1.5"/>
+<text x="560" y="178" font-family="Georgia, 'Times New Roman', serif" font-size="14" fill="#0B1F4A" text-anchor="middle" font-weight="bold">approve</text>
+<text x="560" y="198" font-family="Georgia, 'Times New Roman', serif" font-size="12" fill="#0B1F4A" text-anchor="middle" font-weight="normal">resumed</text>
+<line x1="614" y1="182" x2="626" y2="182" stroke="#0B1F4A" stroke-width="2" marker-end="url(#arr)"/>
+<rect x="628" y="150" width="104" height="64" rx="10" fill="#E0F2FE" stroke="#0B1F4A" stroke-width="1.5"/>
+<text x="680" y="178" font-family="Georgia, 'Times New Roman', serif" font-size="14" fill="#0B1F4A" text-anchor="middle" font-weight="bold">book</text>
+<text x="680" y="198" font-family="Georgia, 'Times New Roman', serif" font-size="12" fill="#0B1F4A" text-anchor="middle" font-weight="normal">step 5</text>
+<line x1="734" y1="182" x2="746" y2="182" stroke="#0B1F4A" stroke-width="2" marker-end="url(#arr)"/>
+<rect x="748" y="150" width="104" height="64" rx="10" fill="#E0F2FE" stroke="#0B1F4A" stroke-width="1.5"/>
+<text x="800" y="178" font-family="Georgia, 'Times New Roman', serif" font-size="14" fill="#0B1F4A" text-anchor="middle" font-weight="bold">crm_log</text>
+<text x="800" y="198" font-family="Georgia, 'Times New Roman', serif" font-size="12" fill="#0B1F4A" text-anchor="middle" font-weight="normal">step 6</text>
+<line x1="854" y1="182" x2="866" y2="182" stroke="#0B1F4A" stroke-width="2" marker-end="url(#arr)"/>
+<rect x="868" y="150" width="104" height="64" rx="10" fill="#0B1F4A" stroke="#0B1F4A" stroke-width="1.5"/>
+<text x="920" y="178" font-family="Georgia, 'Times New Roman', serif" font-size="14" fill="#FFFFFF" text-anchor="middle" font-weight="bold">done</text>
+<text x="920" y="198" font-family="Georgia, 'Times New Roman', serif" font-size="12" fill="#FFFFFF" text-anchor="middle" font-weight="normal">terminal</text>
+<text x="500" y="280" font-family="Georgia, 'Times New Roman', serif" font-size="15" fill="#475569" text-anchor="middle" font-weight="normal">The paused checkpoint holds state, next node (approve), and status (interrupted):</text>
+<text x="500" y="306" font-family="Georgia, 'Times New Roman', serif" font-size="15" fill="#475569" text-anchor="middle" font-weight="normal">everything a resume needs, nothing else required.</text>
+</svg>

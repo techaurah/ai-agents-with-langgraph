@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="460" viewBox="0 0 1000 460">
+<rect width="1000" height="460" fill="#FFFFFF"/>
+<defs><marker id="arr" markerWidth="8" markerHeight="8" refX="7" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6" fill="#0B1F4A"/></marker></defs>
+<text x="500" y="48" font-family="Georgia, 'Times New Roman', serif" font-size="25" fill="#0B1F4A" text-anchor="middle" font-weight="bold">Lesson 01: the graph costs more on linear work</text>
+<text x="70" y="120" font-family="Georgia, 'Times New Roman', serif" font-size="16" fill="#0B1F4A" text-anchor="start" font-weight="bold">Calls / executions (12 leads)</text>
+<rect x="70" y="136" width="616" height="40" rx="10" fill="#0891B2" stroke="#0B1F4A" stroke-width="1.5"/>
+<text x="702" y="162" font-family="Georgia, 'Times New Roman', serif" font-size="16" fill="#0B1F4A" text-anchor="start" font-weight="normal">pipeline: 56</text>
+<rect x="70" y="186" width="649" height="40" rx="10" fill="#0B1F4A" stroke="#0B1F4A" stroke-width="1.5"/>
+<text x="735" y="212" font-family="Georgia, 'Times New Roman', serif" font-size="16" fill="#0B1F4A" text-anchor="start" font-weight="normal">graph: 59</text>
+<text x="70" y="286" font-family="Georgia, 'Times New Roman', serif" font-size="16" fill="#0B1F4A" text-anchor="start" font-weight="bold">Checkpoint writes</text>
+<rect x="70" y="302" width="8" height="40" rx="10" fill="#0891B2" stroke="#0B1F4A" stroke-width="1.5"/>
+<text x="94" y="328" font-family="Georgia, 'Times New Roman', serif" font-size="16" fill="#0B1F4A" text-anchor="start" font-weight="normal">pipeline: 0</text>
+<rect x="70" y="352" width="588" height="40" rx="10" fill="#0B1F4A" stroke="#0B1F4A" stroke-width="1.5"/>
+<text x="674" y="378" font-family="Georgia, 'Times New Roman', serif" font-size="16" fill="#0B1F4A" text-anchor="start" font-weight="normal">graph: 84</text>
+<text x="500" y="432" font-family="Georgia, 'Times New Roman', serif" font-size="15" fill="#475569" text-anchor="middle" font-weight="normal">Outcomes agree 12 of 12. The graph buys pause, resume, recovery, and audit.</text>
+</svg>

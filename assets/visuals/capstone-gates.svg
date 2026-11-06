@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="560" viewBox="0 0 1000 560">
+<rect width="1000" height="560" fill="#FFFFFF"/>
+<defs><marker id="arr" markerWidth="8" markerHeight="8" refX="7" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6" fill="#0B1F4A"/></marker></defs>
+<text x="500" y="48" font-family="Georgia, 'Times New Roman', serif" font-size="26" fill="#0B1F4A" text-anchor="middle" font-weight="bold">Capstone gates: fixed before the build</text>
+<text x="70" y="108" font-family="Georgia, 'Times New Roman', serif" font-size="16" fill="#475569" text-anchor="start" font-weight="bold">Gate</text>
+<text x="640" y="108" font-family="Georgia, 'Times New Roman', serif" font-size="16" fill="#475569" text-anchor="middle" font-weight="bold">As-built</text>
+<text x="850" y="108" font-family="Georgia, 'Times New Roman', serif" font-size="16" fill="#475569" text-anchor="middle" font-weight="bold">Hardened</text>
+<rect x="40" y="128" width="920" height="48" rx="10" fill="#E0F2FE" stroke="#0B1F4A" stroke-width="1.5"/>
+<text x="70" y="158" font-family="Georgia, 'Times New Roman', serif" font-size="16" fill="#0B1F4A" text-anchor="start" font-weight="normal">Band accuracy (min 0.9)</text>
+<text x="640" y="158" font-family="Georgia, 'Times New Roman', serif" font-size="17" fill="#15803D" text-anchor="middle" font-weight="bold">1.0</text>
+<text x="850" y="158" font-family="Georgia, 'Times New Roman', serif" font-size="17" fill="#15803D" text-anchor="middle" font-weight="bold">1.0</text>
+<rect x="40" y="186" width="920" height="48" rx="10" fill="#FFFFFF" stroke="#0B1F4A" stroke-width="1.5"/>
+<text x="70" y="216" font-family="Georgia, 'Times New Roman', serif" font-size="16" fill="#0B1F4A" text-anchor="start" font-weight="normal">Task success (min 0.9)</text>
+<text x="640" y="216" font-family="Georgia, 'Times New Roman', serif" font-size="17" fill="#B91C1C" text-anchor="middle" font-weight="bold">0.8333</text>
+<text x="850" y="216" font-family="Georgia, 'Times New Roman', serif" font-size="17" fill="#15803D" text-anchor="middle" font-weight="bold">1.0</text>
+<rect x="40" y="244" width="920" height="48" rx="10" fill="#E0F2FE" stroke="#0B1F4A" stroke-width="1.5"/>
+<text x="70" y="274" font-family="Georgia, 'Times New Roman', serif" font-size="16" fill="#0B1F4A" text-anchor="start" font-weight="normal">Policy escapes (max 0)</text>
+<text x="640" y="274" font-family="Georgia, 'Times New Roman', serif" font-size="17" fill="#B91C1C" text-anchor="middle" font-weight="bold">1</text>
+<text x="850" y="274" font-family="Georgia, 'Times New Roman', serif" font-size="17" fill="#15803D" text-anchor="middle" font-weight="bold">0</text>
+<rect x="40" y="302" width="920" height="48" rx="10" fill="#FFFFFF" stroke="#0B1F4A" stroke-width="1.5"/>
+<text x="70" y="332" font-family="Georgia, 'Times New Roman', serif" font-size="16" fill="#0B1F4A" text-anchor="start" font-weight="normal">Crash-lead bookings (exact 1)</text>
+<text x="640" y="332" font-family="Georgia, 'Times New Roman', serif" font-size="17" fill="#B91C1C" text-anchor="middle" font-weight="bold">2</text>
+<text x="850" y="332" font-family="Georgia, 'Times New Roman', serif" font-size="17" fill="#15803D" text-anchor="middle" font-weight="bold">1</text>
+<rect x="40" y="360" width="920" height="48" rx="10" fill="#E0F2FE" stroke="#0B1F4A" stroke-width="1.5"/>
+<text x="70" y="390" font-family="Georgia, 'Times New Roman', serif" font-size="16" fill="#0B1F4A" text-anchor="start" font-weight="normal">Ledger entries (exact 4)</text>
+<text x="640" y="390" font-family="Georgia, 'Times New Roman', serif" font-size="17" fill="#B91C1C" text-anchor="middle" font-weight="bold">6</text>
+<text x="850" y="390" font-family="Georgia, 'Times New Roman', serif" font-size="17" fill="#15803D" text-anchor="middle" font-weight="bold">4</text>
+<rect x="40" y="418" width="920" height="48" rx="10" fill="#FFFFFF" stroke="#0B1F4A" stroke-width="1.5"/>
+<text x="70" y="448" font-family="Georgia, 'Times New Roman', serif" font-size="16" fill="#0B1F4A" text-anchor="start" font-weight="normal">Mean steps (max 6.0)</text>
+<text x="640" y="448" font-family="Georgia, 'Times New Roman', serif" font-size="17" fill="#15803D" text-anchor="middle" font-weight="bold">5.17</text>
+<text x="850" y="448" font-family="Georgia, 'Times New Roman', serif" font-size="17" fill="#15803D" text-anchor="middle" font-weight="bold">4.92</text>
+<text x="500" y="520" font-family="Georgia, 'Times New Roman', serif" font-size="16" fill="#0B1F4A" text-anchor="middle" font-weight="bold">Gates passed: as-built 2 of 6 · hardened 6 of 6 (Lesson 31)</text>
+</svg>

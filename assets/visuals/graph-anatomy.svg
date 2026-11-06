@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="430" viewBox="0 0 1000 430">
+<rect width="1000" height="430" fill="#FFFFFF"/>
+<defs><marker id="arr" markerWidth="8" markerHeight="8" refX="7" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6" fill="#0B1F4A"/></marker></defs>
+<text x="500" y="48" font-family="Georgia, 'Times New Roman', serif" font-size="28" fill="#0B1F4A" text-anchor="middle" font-weight="bold">Anatomy of a graph run</text>
+<rect x="40" y="90" width="250" height="210" rx="10" fill="#FFFFFF" stroke="#0B1F4A" stroke-width="1.5"/>
+<text x="165" y="122" font-family="Georgia, 'Times New Roman', serif" font-size="17" fill="#0B1F4A" text-anchor="middle" font-weight="bold">STATE</text>
+<text x="65" y="156" font-family="Georgia, 'Times New Roman', serif" font-size="15" fill="#475569" text-anchor="start" font-weight="normal">lead</text>
+<text x="65" y="180" font-family="Georgia, 'Times New Roman', serif" font-size="15" fill="#475569" text-anchor="start" font-weight="normal">score · band</text>
+<text x="65" y="204" font-family="Georgia, 'Times New Roman', serif" font-size="15" fill="#475569" text-anchor="start" font-weight="normal">missing</text>
+<text x="65" y="228" font-family="Georgia, 'Times New Roman', serif" font-size="15" fill="#475569" text-anchor="start" font-weight="normal">booked_slot</text>
+<text x="65" y="252" font-family="Georgia, 'Times New Roman', serif" font-size="15" fill="#475569" text-anchor="start" font-weight="normal">outcome</text>
+<text x="65" y="276" font-family="Georgia, 'Times New Roman', serif" font-size="15" fill="#475569" text-anchor="start" font-weight="normal">events</text>
+<text x="165" y="322" font-family="Georgia, 'Times New Roman', serif" font-size="13" fill="#0891B2" text-anchor="middle" font-weight="normal">channels + reducers</text>
+<rect x="302" y="130" width="116" height="56" rx="10" fill="#E0F2FE" stroke="#0B1F4A" stroke-width="1.5"/>
+<text x="360" y="165" font-family="Georgia, 'Times New Roman', serif" font-size="17" fill="#0B1F4A" text-anchor="middle" font-weight="bold">intake</text>
+<rect x="442" y="130" width="116" height="56" rx="10" fill="#E0F2FE" stroke="#0B1F4A" stroke-width="1.5"/>
+<text x="500" y="165" font-family="Georgia, 'Times New Roman', serif" font-size="17" fill="#0B1F4A" text-anchor="middle" font-weight="bold">score</text>
+<rect x="582" y="130" width="116" height="56" rx="10" fill="#E0F2FE" stroke="#0B1F4A" stroke-width="1.5"/>
+<text x="640" y="165" font-family="Georgia, 'Times New Roman', serif" font-size="17" fill="#0B1F4A" text-anchor="middle" font-weight="bold">approve</text>
+<rect x="722" y="130" width="116" height="56" rx="10" fill="#E0F2FE" stroke="#0B1F4A" stroke-width="1.5"/>
+<text x="780" y="165" font-family="Georgia, 'Times New Roman', serif" font-size="17" fill="#0B1F4A" text-anchor="middle" font-weight="bold">book</text>
+<line x1="292" y1="158" x2="300" y2="158" stroke="#0B1F4A" stroke-width="2" marker-end="url(#arr)"/>
+<line x1="418" y1="158" x2="440" y2="158" stroke="#0B1F4A" stroke-width="2" marker-end="url(#arr)"/>
+<line x1="558" y1="158" x2="580" y2="158" stroke="#0B1F4A" stroke-width="2" marker-end="url(#arr)"/>
+<line x1="698" y1="158" x2="720" y2="158" stroke="#0B1F4A" stroke-width="2" marker-end="url(#arr)"/>
+<rect x="852" y="130" width="100" height="56" rx="10" fill="#0B1F4A" stroke="#0B1F4A" stroke-width="1.5"/>
+<text x="902" y="165" font-family="Georgia, 'Times New Roman', serif" font-size="17" fill="#FFFFFF" text-anchor="middle" font-weight="bold">END</text>
+<line x1="838" y1="158" x2="850" y2="158" stroke="#0B1F4A" stroke-width="2" marker-end="url(#arr)"/>
+<text x="640" y="120" font-family="Georgia, 'Times New Roman', serif" font-size="14" fill="#F59E0B" text-anchor="middle" font-weight="bold">interrupt: a human decides here</text>
+<rect x="360" y="250" width="592" height="60" rx="10" fill="#E0F2FE" stroke="#0B1F4A" stroke-width="1.5"/>
+<text x="656" y="276" font-family="Georgia, 'Times New Roman', serif" font-size="15" fill="#0B1F4A" text-anchor="middle" font-weight="bold">CHECKPOINTER</text>
+<text x="656" y="298" font-family="Georgia, 'Times New Roman', serif" font-size="14" fill="#475569" text-anchor="middle" font-weight="normal">a snapshot at every super-step boundary</text>
+<line x1="656" y1="190" x2="656" y2="246" stroke="#0891B2" stroke-width="2" marker-end="url(#arr)"/>
+<text x="500" y="380" font-family="Georgia, 'Times New Roman', serif" font-size="15" fill="#475569" text-anchor="middle" font-weight="normal">Nodes return partial updates; edges and routers decide what runs next.</text>
+</svg>
