@@ -1,0 +1,1 @@
+{"approval_budget_threshold":1000,"bands":{"hot_min":80,"warm_min":55},"clarify_max_rounds":2,"follow_up_delay_days":2,"rubric":{"budget_brackets":[[1000,40],[500,30],[200,20],[1,10],[0,0]],"decision_maker_points":{"false":8,"missing":0,"true":30},"recency_brackets":[[0,30],[2,25],[5,18],[9,10],[365,4]]}}
