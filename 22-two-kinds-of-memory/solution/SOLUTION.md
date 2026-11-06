@@ -1,0 +1,3 @@
+# Solution 22
+
+Verified: Ellery Roofing's lookup returns None, and the store holds exactly 1 item (BrightPath's profile). The desired behaviour: a namespace is a per-company boundary, so one company's facts can never leak into another company's thread by accident of a shared key; a returning-lead lookup that finds nothing has correctly learned that this company is new to the store, and the conversation proceeds to ask rather than to assume. Cross-company contamination would not show up as an error anywhere; it would show up as a confidently wrong budget in a sales conversation, which is why the boundary is structural rather than conventional.
